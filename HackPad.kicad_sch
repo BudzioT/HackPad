@@ -1418,10 +1418,34 @@
 		)
 	)
 	(junction
+		(at 172.72 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ca5e2c6-3837-494b-80a3-6ab6fe749c12")
+	)
+	(junction
 		(at 110.49 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e260bb2-76bd-4d50-9699-4489fae6be47")
+	)
+	(junction
+		(at 200.66 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c9338e-c039-418f-8cda-061048c7c719")
+	)
+	(junction
+		(at 172.72 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d757ce-ecb3-4910-b34f-30b52f61b84c")
+	)
+	(junction
+		(at 182.88 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2e0d9f9-5b35-4a84-b261-516bc80f8eec")
 	)
 	(wire
 		(pts
@@ -1465,6 +1489,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 20.32) (xy 182.88 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8887c5-7e08-45d1-9d23-b018c8ed37e0")
+	)
+	(wire
+		(pts
 			(xy 110.49 48.26) (xy 114.3 48.26)
 		)
 		(stroke
@@ -1475,6 +1509,36 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 45.72) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec6d39a-a909-46cc-81c7-ff15df4ad3db")
+	)
+	(wire
+		(pts
+			(xy 182.88 31.75) (xy 182.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1491a2-340b-439a-b0b0-79eeaa89645c")
+	)
+	(wire
+		(pts
+			(xy 200.66 31.75) (xy 200.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c65248-63c0-4c2e-8bf5-979021be6d50")
+	)
+	(wire
+		(pts
 			(xy 105.41 48.26) (xy 110.49 48.26)
 		)
 		(stroke
@@ -1482,6 +1546,16 @@
 			(type default)
 		)
 		(uuid "53b59e0c-aed3-45e1-b3f0-1976c81d4392")
+	)
+	(wire
+		(pts
+			(xy 105.41 58.42) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5765da36-e9df-463a-948b-8d5ab6d9004b")
 	)
 	(wire
 		(pts
@@ -1515,6 +1589,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5095f7-0ad8-465c-8cb7-f23930e1554e")
+	)
+	(wire
+		(pts
 			(xy 190.5 40.64) (xy 195.58 40.64)
 		)
 		(stroke
@@ -1545,6 +1629,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c814fb5f-f8b1-46c9-a0fa-b8467ace0033")
+	)
+	(wire
+		(pts
 			(xy 177.8 63.5) (xy 177.8 59.69)
 		)
 		(stroke
@@ -1552,6 +1646,16 @@
 			(type default)
 		)
 		(uuid "ca1ec323-de25-41db-bc27-1efb1834748c")
+	)
+	(wire
+		(pts
+			(xy 162.56 45.72) (xy 172.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30d1396-e025-4126-966a-d6efa0aa88b4")
 	)
 	(wire
 		(pts
@@ -1612,6 +1716,148 @@
 			(type default)
 		)
 		(uuid "f476bca8-062a-4986-aba9-d2ebfb5c086e")
+	)
+	(wire
+		(pts
+			(xy 200.66 20.32) (xy 200.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64da7c0-5f04-4700-a12f-b68e91fb4a09")
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 200.66 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bc3e08e-fc64-4ecd-a350-a4446c0d6540")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 12.4967 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 162.56 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f05bb48-7d37-471f-921c-2d65c823d836")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3134 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 105.41 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d8f1d45-e230-4747-8954-74b4df871666")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.2376 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 182.88 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c379cad-4a83-468c-9f03-e90a23c98c18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 12.4967 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 162.56 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad125d4a-f05c-438e-b92c-af0acc90abfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3134 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 105.41 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef06e8f0-af0d-4284-a231-e3f2d6462c8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.2376 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -1705,7 +1951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.92 46.99 0)
 			(effects
 				(font
@@ -1815,6 +2061,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b26714c-7d2b-4fcf-a483-d7b80e4481e0")
+		(property "Reference" "#PWR06"
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20d5bae8-aec0-4784-bc32-57cf8f97baa8")
+		)
+		(instances
+			(project ""
+				(path "/159524cb-3f76-4e42-8193-24154d023705"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MX_Alps_Hybrid:MX-NoLED")
 		(at 196.85 33.02 0)
 		(unit 1)
@@ -1840,7 +2152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-10U-NoLED"
 			(at 180.975 33.655 0)
 			(effects
 				(font
@@ -1910,7 +2222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 43.18 90)
 			(effects
 				(font
@@ -2062,7 +2374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "XIAO_PCB:MOUDLE14P-2.54-21X17.8MM"
 			(at 97.79 53.34 0)
 			(effects
 				(font
@@ -2144,7 +2456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 43.18 90)
 			(effects
 				(font
@@ -2298,7 +2610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 66.04 90)
 			(effects
 				(font
@@ -2384,7 +2696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-10U-NoLED"
 			(at 180.975 56.515 0)
 			(effects
 				(font
@@ -2454,7 +2766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 66.04 90)
 			(effects
 				(font
@@ -2539,7 +2851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-10U-NoLED"
 			(at 163.195 56.515 0)
 			(effects
 				(font
@@ -2673,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-10U-NoLED"
 			(at 163.195 33.655 0)
 			(effects
 				(font
@@ -2741,7 +3053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "random-keyboard-parts:Molex-0548190589"
 			(at 113.03 87.63 0)
 			(effects
 				(font
